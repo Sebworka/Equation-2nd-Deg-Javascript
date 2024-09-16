@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<!-- ____________________________________ LE HEAD ________________________________________________________________ -->
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/Fredericka/FrederickatheGreat-Regular.ttf">
+    <script src="script.js" defer></script>
+    <title>Résolution d'une équation du second degré</title>
+</head>
+
+<!-- /* ________________________________   LE BODY __________________________________________________________ */ -->
+<body>
+<div class="equation">
+    <h1>Résolution d'une équation du second degré</h1>
+
+
+    <!-- ________________________________ L'EQUATION _____________________________________________________ -->
+
+    <form id="equation-form">
+        <div class="equation-formula">
+            <input type="number" id="a" required> X² +
+            <input type="number" id="b" required> X +
+            <input type="number" id="c" required> = 0
+        </div>
+        <br>
+        <button type="submit">Résoudre</button>
+        <button type="button" id="reset">Effacer</button>
+    </form>
+
+<!-- _______________________________ Affichage Résultat et Message d'erreur _________________________________ -->
+
+   
+    <p id="result"></p>
+    <p id="error-message" style="color: red;"></p>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+</html>
